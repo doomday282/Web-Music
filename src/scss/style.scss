@@ -1,0 +1,394 @@
+
+$background-color: #f3f5f7;
+$text-muted: #6c757d;
+$text-color: #181b31;
+$bg-footer: #01010d;
+$bg-input: #f3f5f7;
+
+
+body {
+background-color: $background-color;
+font-family: 'Quicksand', sans-serif;
+}
+
+.fucking-bold {
+    font-weight: bold;
+}
+
+section#nav {
+    .cover {
+        position: relative;
+        .logo {
+            position: absolute;
+            top: 3%;
+            left: 3%;
+        }
+        .main-menu {
+            position: absolute;
+            top: 3%;
+            left: 50%;
+            transform: translateX(-50%); 
+            font-weight: bold;      
+            font-size : 80%;
+        }
+        .social {
+            position: absolute;
+            top: 3%;
+            left: 88.5%;
+            .nav-link {
+                color: white;
+            }
+        }
+        .signature {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            .big-text {
+                font-size: 180%;
+            }
+        }
+        .countdown-ticket {
+            position: absolute;
+            top: 95%;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 0.6rem;
+            width: 55%;            
+            .countdown-number {                
+                .nav-link {
+                    width: 5rem;
+                    border-radius: 0.6rem;
+                    .text-big {
+                        font-size: 2rem;
+                        font-weight: bold;
+                    }
+                }
+                
+            }
+            .buy-ticket {
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+        
+    }
+}
+
+section#upcoming {
+    margin-top: 8%;
+   .container {
+       .row {
+        .up-coming {
+            font-size: 300%;
+            font-weight: bold;
+        }
+       }
+       .list-show {
+           margin-top: 6%; 
+           .text-bold {
+               font-weight: bold;
+           }
+           .map-location {
+               text-decoration: none;
+               color: $text-muted;
+           }
+           .see-all {
+              a {
+                text-decoration: none;
+                font-size: 80%;                
+              }
+           }
+       }
+   }
+}
+
+
+section#latest-releases {
+    .row {
+        .see-all {
+            a {
+                text-decoration: none;
+                font-size: 80%;
+                font-weight: bold;
+            }
+        }
+    }
+    .album-gallery {       
+        .album-bottom {
+            .img-fluid {
+                margin-top: 0.33rem;
+            }
+        }
+       
+    }
+    .quote {
+        .fas {
+            font-size: 400%;
+            color: #e5e5f1;
+        }
+    }
+    .sologan {
+        h3 {
+            font-weight: bold;
+        }
+    }
+    .more-info {
+        .text-danger {
+            font-weight: bold;
+        }
+    }
+}
+
+#offical-music-video {
+    .bg-music-video {
+        position: relative;
+        .title-mv {
+            position: absolute;
+            top: 16%;
+            left: 20.3%;           
+            font-size: 90%;
+        }
+        .signature-mv {
+            position: absolute;
+            top: 19%;
+            left: 20.3%;
+        }
+        .description {
+            position: absolute;
+            top: 58%;
+            left: 26%;            
+        }
+        .music-video {
+            position: absolute;
+            top: 75%;
+            left: 26%;
+            font-weight: bold;
+            .fas {
+                font-size: 400%;
+                color: rgb(231, 57, 57);                 
+            }
+        }
+    }
+}
+
+#recent-post {
+    .container {
+        .text-bigger {
+            font-weight: bold;
+            font-size: 300%;
+        }
+        .see-all {
+            .text-bold {
+                font-weight: bold;
+                text-decoration: none;
+                color: red;
+                font-size: 80%;
+            }
+        }
+        .tour-calendar {
+            .calendar {
+                font-size: 80%;
+                font-weight: bold;
+                color: text-color;
+            }
+            .calendar:hover {
+                color: red;
+            }
+            .title {
+               .title-cotent {
+                font-size: 130%;
+                font-weight: bold;
+                text-decoration: none; 
+                color: $text-color;               
+               }
+               .title-content:hover {
+                   color: red;
+               }
+            }
+            .more-info {
+                .read-more {
+                    font-size: 80%;
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: $text-color;
+                }
+                .read-more:hover {
+                    color: red;
+                }
+            }
+        }
+
+    }
+}
+
+#slide-show-bottom {
+.img-gallery-show{
+    position: relative;
+    width: 100%;
+    height: 13rem;
+    overflow: hidden;
+    .album-show{
+        position: absolute;
+        .img-gallery {
+            display: inline-block;   
+            width: 21.4071rem;            
+            height: 13rem; 
+        }
+        .img-gallery:hover {
+           background-color: red;
+            opacity: 0.3;
+            transition: 0.5;            
+        }
+       
+    }
+}
+}
+
+#subcribe {
+    .input-infomation {
+        .input-subscribe {
+            border: none;
+            background-color: $bg-input;
+            width: 55%;
+            border-radius: 2rem;
+            position: relative;
+            padding: 1.2rem 10rem 1.2rem 4rem;
+           
+        }
+    }
+    .fa-envelope {
+        position: absolute;
+        top: 50%;
+        left: 25.8%;
+        transform: translateY(-50%);
+        color: red;
+    }
+    .button-subcribe {
+        position: absolute;
+        top: 50%;
+        left: 68.5%;
+        transform: translateY(-50%);
+        text-decoration: none;
+        font-weight: bold;
+        color: $text-color;
+        font-size: 80%;
+    }
+    .button-subcribe:hover {
+        color: red;        
+    }
+}
+
+section#footer {
+    background-color: $bg-footer;
+    .container-fluid   {
+        .row {
+            .upcoming-events {
+                .calendar {
+                    font-size: 150%;
+                    font-weight: bold;
+                }
+                .day {
+                    font-size: 90%;
+                    font-weight: bold;
+                }
+                .event {
+                    .event-name {
+                        text-decoration: none;
+                        color: $text-muted;
+                    }
+                    .event-name:hover {
+                        color: red;
+                    }
+                }
+                
+            }
+            .navigation {
+                .menu {
+                    .menu-name {
+                        color: $text-muted;
+                        text-decoration: none;
+                    }
+                    .menu-name:hover {
+                        color: red;
+                    }
+                }
+            }
+            .featured-album {
+                .img-album-footer {
+                    width: 70%;
+                }
+            }
+
+         
+        }
+    }
+   
+}
+
+// .navbar{
+//     box-shadow:2px 2px 5px ;
+//     opacity:0.9;
+//     background:#fff;
+  
+//     .nav-item{
+//       font-size:1.4rem;
+//       padding-right:20px;
+//     }
+//   }
+
+// -------------------------------------------------
+// REPONSIVE
+
+// Menu+
+@media only screen and (max-width: 1640px) {
+    .countdown-ticket {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1520px) {
+    .main-menu {
+        font-size: 70% !important;
+    }
+    .social {
+       display: none;
+    }
+    .logo {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1410px) {
+    .main-menu {
+        font-size: 60% !important;
+    }
+   
+}
+
+@media only screen and (max-width: 1300px) {
+    .main-menu {
+        font-size: 50% !important;
+    }
+ 
+}
+@media only screen and (max-width: 1200px) {
+    .main-menu {
+        font-size: 45% !important;
+    }
+ 
+}
+@media only screen and (max-width: 1134px) {
+    .main-menu {
+        font-size: 40% !important;
+    }
+ 
+}
+@media only screen and (max-width: 1133px) {
+    .main-menu {
+        display: none;
+    }
+
+}

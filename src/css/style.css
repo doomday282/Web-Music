@@ -1,0 +1,239 @@
+body {
+  background-color: #f3f5f7;
+  font-family: 'Quicksand', sans-serif; }
+
+.fucking-bold {
+  font-weight: bold; }
+
+section#nav .cover {
+  position: relative; }
+  section#nav .cover .logo {
+    position: absolute;
+    top: 3%;
+    left: 3%; }
+  section#nav .cover .main-menu {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 80%; }
+  section#nav .cover .social {
+    position: absolute;
+    top: 3%;
+    left: 88.5%; }
+    section#nav .cover .social .nav-link {
+      color: white; }
+  section#nav .cover .signature {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    section#nav .cover .signature .big-text {
+      font-size: 180%; }
+  section#nav .cover .countdown-ticket {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0.6rem;
+    width: 55%; }
+    section#nav .cover .countdown-ticket .countdown-number .nav-link {
+      width: 5rem;
+      border-radius: 0.6rem; }
+      section#nav .cover .countdown-ticket .countdown-number .nav-link .text-big {
+        font-size: 2rem;
+        font-weight: bold; }
+    section#nav .cover .countdown-ticket .buy-ticket a {
+      text-decoration: none; }
+
+section#upcoming {
+  margin-top: 8%; }
+  section#upcoming .container .row .up-coming {
+    font-size: 300%;
+    font-weight: bold; }
+  section#upcoming .container .list-show {
+    margin-top: 6%; }
+    section#upcoming .container .list-show .text-bold {
+      font-weight: bold; }
+    section#upcoming .container .list-show .map-location {
+      text-decoration: none;
+      color: #6c757d; }
+    section#upcoming .container .list-show .see-all a {
+      text-decoration: none;
+      font-size: 80%; }
+
+section#latest-releases .row .see-all a {
+  text-decoration: none;
+  font-size: 80%;
+  font-weight: bold; }
+
+section#latest-releases .album-gallery .album-bottom .img-fluid {
+  margin-top: 0.33rem; }
+
+section#latest-releases .quote .fas {
+  font-size: 400%;
+  color: #e5e5f1; }
+
+section#latest-releases .sologan h3 {
+  font-weight: bold; }
+
+section#latest-releases .more-info .text-danger {
+  font-weight: bold; }
+
+#offical-music-video .bg-music-video {
+  position: relative; }
+  #offical-music-video .bg-music-video .title-mv {
+    position: absolute;
+    top: 16%;
+    left: 20.3%;
+    font-size: 90%; }
+  #offical-music-video .bg-music-video .signature-mv {
+    position: absolute;
+    top: 19%;
+    left: 20.3%; }
+  #offical-music-video .bg-music-video .description {
+    position: absolute;
+    top: 58%;
+    left: 26%; }
+  #offical-music-video .bg-music-video .music-video {
+    position: absolute;
+    top: 75%;
+    left: 26%;
+    font-weight: bold; }
+    #offical-music-video .bg-music-video .music-video .fas {
+      font-size: 400%;
+      color: #e73939; }
+
+#recent-post .container .text-bigger {
+  font-weight: bold;
+  font-size: 300%; }
+
+#recent-post .container .see-all .text-bold {
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+  font-size: 80%; }
+
+#recent-post .container .tour-calendar .calendar {
+  font-size: 80%;
+  font-weight: bold;
+  color: text-color; }
+
+#recent-post .container .tour-calendar .calendar:hover {
+  color: red; }
+
+#recent-post .container .tour-calendar .title .title-cotent {
+  font-size: 130%;
+  font-weight: bold;
+  text-decoration: none;
+  color: #181b31; }
+
+#recent-post .container .tour-calendar .title .title-content:hover {
+  color: red; }
+
+#recent-post .container .tour-calendar .more-info .read-more {
+  font-size: 80%;
+  font-weight: bold;
+  text-decoration: none;
+  color: #181b31; }
+
+#recent-post .container .tour-calendar .more-info .read-more:hover {
+  color: red; }
+
+#slide-show-bottom .img-gallery-show {
+  position: relative;
+  width: 100%;
+  height: 13rem;
+  overflow: hidden; }
+  #slide-show-bottom .img-gallery-show .album-show {
+    position: absolute; }
+    #slide-show-bottom .img-gallery-show .album-show .img-gallery {
+      display: inline-block;
+      width: 21.4071rem;
+      height: 13rem; }
+    #slide-show-bottom .img-gallery-show .album-show .img-gallery:hover {
+      background-color: red;
+      opacity: 0.3;
+      transition: 0.5; }
+
+#subcribe .input-infomation .input-subscribe {
+  border: none;
+  background-color: #f3f5f7;
+  width: 55%;
+  border-radius: 2rem;
+  position: relative;
+  padding: 1.2rem 10rem 1.2rem 4rem; }
+
+#subcribe .fa-envelope {
+  position: absolute;
+  top: 50%;
+  left: 25.8%;
+  transform: translateY(-50%);
+  color: red; }
+
+#subcribe .button-subcribe {
+  position: absolute;
+  top: 50%;
+  left: 68.5%;
+  transform: translateY(-50%);
+  text-decoration: none;
+  font-weight: bold;
+  color: #181b31;
+  font-size: 80%; }
+
+#subcribe .button-subcribe:hover {
+  color: red; }
+
+section#footer {
+  background-color: #01010d; }
+  section#footer .container-fluid .row .upcoming-events .calendar {
+    font-size: 150%;
+    font-weight: bold; }
+  section#footer .container-fluid .row .upcoming-events .day {
+    font-size: 90%;
+    font-weight: bold; }
+  section#footer .container-fluid .row .upcoming-events .event .event-name {
+    text-decoration: none;
+    color: #6c757d; }
+  section#footer .container-fluid .row .upcoming-events .event .event-name:hover {
+    color: red; }
+  section#footer .container-fluid .row .navigation .menu .menu-name {
+    color: #6c757d;
+    text-decoration: none; }
+  section#footer .container-fluid .row .navigation .menu .menu-name:hover {
+    color: red; }
+  section#footer .container-fluid .row .featured-album .img-album-footer {
+    width: 70%; }
+
+@media only screen and (max-width: 1640px) {
+  .countdown-ticket {
+    width: 100%; } }
+
+@media only screen and (max-width: 1520px) {
+  .main-menu {
+    font-size: 70% !important; }
+  .social {
+    display: none; }
+  .logo {
+    display: none; } }
+
+@media only screen and (max-width: 1410px) {
+  .main-menu {
+    font-size: 60% !important; } }
+
+@media only screen and (max-width: 1300px) {
+  .main-menu {
+    font-size: 50% !important; } }
+
+@media only screen and (max-width: 1200px) {
+  .main-menu {
+    font-size: 45% !important; } }
+
+@media only screen and (max-width: 1134px) {
+  .main-menu {
+    font-size: 40% !important; } }
+
+@media only screen and (max-width: 1133px) {
+  .main-menu {
+    display: none; } }
