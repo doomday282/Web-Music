@@ -141,21 +141,12 @@ section#latest-releases .more-info .text-danger {
 #recent-post .container .tour-calendar .more-info .read-more:hover {
   color: red; }
 
-#slide-show-bottom .img-gallery-show {
-  position: relative;
-  width: 100%;
-  height: 13rem;
-  overflow: hidden; }
-  #slide-show-bottom .img-gallery-show .album-show {
-    position: absolute; }
-    #slide-show-bottom .img-gallery-show .album-show .img-gallery {
-      display: inline-block;
-      width: 21.4071rem;
-      height: 13rem; }
-    #slide-show-bottom .img-gallery-show .album-show .img-gallery:hover {
-      background-color: red;
-      opacity: 0.3;
-      transition: 0.5; }
+#slide-show-bottom .container-fluid .img-gallery-show .album-show {
+  overflow: hidden;
+  max-height: 12rem; }
+  #slide-show-bottom .container-fluid .img-gallery-show .album-show .img-gallery {
+    height: 15rem;
+    width: auto; }
 
 #subcribe .input-infomation .input-subscribe {
   border: none;
@@ -204,7 +195,9 @@ section#footer {
   section#footer .container-fluid .row .navigation .menu .menu-name:hover {
     color: red; }
   section#footer .container-fluid .row .featured-album .img-album-footer {
-    width: 70%; }
+    width: 70%;
+    background-size: cover;
+    background-position: center; }
 
 @media only screen and (max-width: 1640px) {
   .countdown-ticket {
